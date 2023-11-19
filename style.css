@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 div.header {
@@ -51,14 +52,6 @@ div.header div.caption p.small {
   margin-top: -2em;
 }
 
-img.top {
-  transform: translateY(-930%);
-}
-
-img.bottom {
-  transform: translateY(-50%);
-}
-
 p.down {
   margin-top: -1.5em;
 }
@@ -78,10 +71,51 @@ section.services div.text {
   text-align: center;
   padding-top: 2em;
 }
+section.services div.services {
+  margin-top: -1em;
+}
 section.services div.img {
   width: 100%;
 }
 section.services div.img img {
   width: 100%;
   margin-top: -1em;
+}
+section.services span.Bold {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+div.img2 {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+div.img2 img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+section.form h1 {
+  color: navy;
+}
+section.form p {
+  text-align: center;
+  line-height: 2em;
+}
+section.form div.form {
+  margin-left: 2em;
+}
+section.form label {
+  display: block;
+}
+section.form input {
+  margin-bottom: 1.5em;
+  padding: 1.3em auto;
+  display: block;
+  width: 90%;
+  height: 2.5em;
+  border-radius: 2px;
+  border-width: 1.5px;
 }/*# sourceMappingURL=style.css.map */
