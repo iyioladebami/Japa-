@@ -170,7 +170,41 @@ section.closer a {
   border: white 2px solid;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 1.5em;
+  padding: 1.1em;
   margin-right: auto;
   margin-left: auto;
+}
+
+nav {
+  position: fixed;
+  width: 66%;
+  right: 0;
+  top: 0;
+  background-color: rgb(41, 41, 202);
+  height: 100vh;
+  z-index: 999;
+}
+nav ul {
+  list-style-type: none;
+  margin-right: 2em;
+  margin-top: 5em;
+}
+nav img {
+  float: right;
+  margin-right: 0.5em;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 0.5em;
+  font-size: 1.3em;
+  text-align: right;
+}
+nav a:hover {
+  font-weight: bold;
+}
+
+nav {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
