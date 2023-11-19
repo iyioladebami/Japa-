@@ -118,4 +118,19 @@ section.form input {
   height: 2.5em;
   border-radius: 2px;
   border-width: 1.5px;
+}
+
+section.clients {
+  background-color: pink;
+}
+section.clients p {
+  text-align: center;
+}
+section.clients img.clients {
+  display: block;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  scale: 0.75;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
