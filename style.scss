@@ -18,5 +18,8 @@ img.top{ transform: translateY(-930%);}
 img.bottom{transform: translateY(-50%);}
 p.down{margin-top: -1.5em;}
 div.as{p{text-align: center; color: navy;}
-p.bold{font-size: 1.2em; font-weight: bold;}}
- 
+p.bold{font-size: 1.4em; font-weight: bold;}}
+section.services{ div.text{background-color: rgb(15, 15, 88); color: white; text-align: center;
+padding-top: 2em;}
+
+    div.img{width: 100%; img{width: 100%; margin-top: -1em;}}}
